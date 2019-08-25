@@ -18,6 +18,8 @@ function App() {
         <div className="col-sm-8">
           <DailyList />
         </div>
+
+        
       </div>
     </div>
   );

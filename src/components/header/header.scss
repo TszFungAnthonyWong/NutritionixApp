@@ -25,6 +25,25 @@
     }
 }
 
+.aBtn{
+    position: fixed;
+    padding: 25px 25px;
+    right: 2%;
+    bottom: 2%;
+    border-radius: 50%;
+    background:rgb(100, 33, 255);
+    font-size: 30px;
+    color:white;
+    z-index: 10;
+    cursor: pointer;
+    p {
+        position: absolute;
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,-50%)
+    }
+}
+
 .searchBar{ 
     z-index: 50;
 }

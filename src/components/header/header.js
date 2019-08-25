@@ -66,6 +66,7 @@ class header extends Component {
                 </div>
                 <BackDrop show={this.state.searching} click={this.close} />
                 <AddingBackDrop show={this.props.showAddForm} click={this.props.closeAdding} />
+                <div onClick={this.seachClick} className="aBtn"><p>+</p></div>
             </div>
         );
     }
