@@ -62,7 +62,7 @@ class addItem extends Component {
                     <button onClick={this.props.closeAdding} className="closebtn">X</button>
                     <div className="addItemImg" >
                         <img src={this.props.data.photo.thumb} alt={this.props.data.food_name} />
-                        <div>{this.props.data.food_name}</div>
+                        <div>{this.props.data.food_name.length<30?this.props.data.food_name:this.props.data.food_name.slice(0,30)+"..."}</div>
                         <hr />
                     </div>
 
