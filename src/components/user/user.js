@@ -9,7 +9,7 @@ class user extends Component {
         return (
             <div className="userInfo">
                 <div className="imageBubble">
-                 <img src={userImg} className="userImage" alt="uimg"></img>
+                    <img src={userImg} className="userImage" alt="uimg"></img>
                 </div>
                 <div className="bubble leftBubble">
                     <div>
@@ -25,10 +25,12 @@ class user extends Component {
                     </div>
                 </div>
                 <div className="name">
-                <p >{this.props.user.first_name}{"  " + this.props.user.last_name}</p>
-                <hr/>
+                    <p style={{display: 'inline'}}>{this.props.user.first_name}</p><p className="lastName">{"  " + this.props.user.last_name}</p>
                 </div>
-                
+                <div className="hrLine">
+                    <hr />
+                </div>
+
             </div>
         );
     }

@@ -47,3 +47,24 @@
 .searchBar{ 
     z-index: 50;
 }
+
+@media (max-width: 575px) {
+    .header{
+        padding-bottom: 90px;
+    }
+    .dateControl{
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 95px;
+        width:90%;
+        transform: translate(-55%,10%);
+        color:black;
+        z-index: 10;
+        font-size: 25px;
+        button {
+            color:rgb(100, 33, 255);
+        }
+    
+    }
+    
+  }

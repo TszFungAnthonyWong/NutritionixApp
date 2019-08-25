@@ -33,3 +33,9 @@
     background:rgb(208, 187, 255);
     overflow: visible;
 }
+
+@media (max-width: 575px) {
+    .calContainer{
+        margin-top: 50px;
+    }
+}

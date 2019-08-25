@@ -53,8 +53,9 @@ html, body {
   }
 }
 
-@media only screen and (max-width: 540px) {
+@media (max-width: 575px) {
   .userContainer{
     background: white;
+    margin-bottom: -50px;
   }
 }
