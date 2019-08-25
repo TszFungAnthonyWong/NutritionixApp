@@ -1,0 +1,35 @@
+
+.calContainer{
+    margin-top: 200px;
+    padding: inherit;
+
+    br {
+        margin-top: 0;
+    }
+}
+
+.calInf{
+    display: flex;
+    font-size: 20px;
+}
+
+.calTag{
+    display: flex;
+    font-size: 15px;
+    color:gray
+}
+
+.progress-bar{
+    background:rgb(100, 33, 255);
+
+    div {
+        color:gray;
+        transform: translate(53%,45%)
+    }
+}
+
+.progress{
+    height:2px;
+    background:rgb(208, 187, 255);
+    overflow: visible;
+}

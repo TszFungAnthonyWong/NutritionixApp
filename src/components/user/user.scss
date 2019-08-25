@@ -1,0 +1,53 @@
+.bubble {
+  position: absolute;
+  top:40px;
+  padding: 30px 30px;
+  border-radius: 50%;
+  background-color: grey;
+  opacity: 0.8;
+  color: white;
+  div {
+    position: absolute;
+    transform: translate(-50%,-50%)
+  }
+  p {
+    margin: -5px;
+    padding: 0;
+  }
+}
+
+.leftBubble {
+    left:25%;
+    transform: translate(-50%,0%)
+}
+
+.rightBubble {
+    right: 25%;
+    transform: translate(50%,0%)
+}
+
+.imageBubble{
+    left:50%;
+    top:20px;
+    transform: translate(-50%,0%);
+    position: absolute;
+    padding: 50px 50px;
+    overflow: hidden;
+    border-radius: 50%;
+
+    img {
+        width: 110px;
+        position: absolute;
+        left:-10px;
+        top:0;
+    }
+}
+
+.name{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    top: 120px;
+    font-size: 30px;
+}

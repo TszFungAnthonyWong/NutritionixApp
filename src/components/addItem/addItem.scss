@@ -1,0 +1,50 @@
+.addItem {
+  width: 60%;
+  height: 450%;
+  position: absolute;
+  z-index: 100;
+  margin:60px;
+  text-align: left;
+  hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.addItemImg {
+  margin: 15px;
+  margin-bottom: 0;
+  img {
+    width: 70px;
+    height: auto;
+    border-radius: 10px;
+  }
+  font-size: 20px;
+}
+
+.addItemContent {
+  margin: 15px;
+  margin-top: 0;
+}
+
+.mealSelect{
+    select{
+        background:rgb(237, 237, 237)
+    }
+}
+
+.closebtn{
+  position: absolute;
+  color: purple;
+  border: 0;
+  background: white;
+  right:1px;
+}
+
+@media only screen and (max-width: 540px) {
+  .addItem{
+    width: 95%;
+    margin:0px;
+    margin-top:60px; 
+  }
+}

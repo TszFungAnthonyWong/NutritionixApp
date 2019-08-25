@@ -1,0 +1,24 @@
+.listItem {
+  padding: inherit;
+  width: 100%;
+  margin: 10px;
+  img {
+    margin-left: -25px;
+    width: 50px;
+    height: auto;
+  }
+
+  hr {
+    margin-top: -0.5rem;
+    margin-bottom: -0.5rem;
+  }
+}
+
+.itemName {
+    display: flex;
+}
+
+.itemDetail {
+    display: flex;
+  color: grey;
+}

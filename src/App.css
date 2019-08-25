@@ -1,5 +1,26 @@
 .App {
   text-align: center;
+  height: 100%;
+}
+
+html, body { 
+  margin:0; 
+  padding:0; 
+  height:100%; 
+}
+
+.contentContainer{
+  height:100%; 
+}
+
+.userContainer{
+  background: rgb(233, 233, 233);
+}
+
+#root{
+  margin:0; 
+  padding:0; 
+  height:100%; 
 }
 
 .App-logo {
@@ -29,5 +50,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .userContainer{
+    background: white;
   }
 }

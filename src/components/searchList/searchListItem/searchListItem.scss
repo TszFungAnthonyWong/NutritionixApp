@@ -1,0 +1,37 @@
+.itemImg{
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    transform: translate(-25%, -5%);
+}
+.slContainer{
+    padding: inherit;
+    width: 100%;
+    margin: 1px;
+
+    hr {
+        margin-top: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+}
+
+.imgConatiner{
+    margin-left: 10px;
+}
+
+.itemText{
+    font-size: 20px;
+    text-align: left;
+    margin: auto;
+    :hover{
+        background:  rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+}
+
+
+.brandName{
+    color:gray;
+    font-size: 10px;
+    font-weight: bold;
+}

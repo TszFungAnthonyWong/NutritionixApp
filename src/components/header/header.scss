@@ -1,0 +1,30 @@
+.header{
+    background:rgb(100, 33, 255);
+    padding: 15px 0px 20px;
+}
+.input-group-text{
+    background: white;
+    border: 0;
+}
+.form-control{
+    border: 0;
+}
+.dateControl{
+    margin-top: 20px;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    button {
+        color: white;
+        background: none;
+        border: 0;
+
+        :hover{
+            color: black;  
+        }
+    }
+}
+
+.searchBar{ 
+    z-index: 50;
+}
